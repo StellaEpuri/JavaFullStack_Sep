@@ -1,0 +1,300 @@
+JAVA:
+=====
+Programming language:
+======================
+communicate with machines.
+
+machine language.....>>binary language.... 0's & 1's
+
+used to develop softwares/applications.
+
+2types of applications:
+==========================
+1.Standalone Applications/Desktop applications
+
+eg: antivirus,mediaplayers,calculator,....
+
+2.Distributed Applications/Network applications:
+
+eg: gmail,facebook,whatsapp,,,.....
+
+2types of programming language:
+
+1.POP: Procedure oriented programming
+
+eg: c,b,cobol,......
+
+2.OOP: Object Oriented programming
+
+eg: java,python,.Net,c++,....
+
+
+oop offers:
+
+1.Performance
+2.Security
+
+OOP Paradigm:
+==============
+1.Inheritance
+2.Polymorphism.... performance
+
+3.Encapsulation
+4.Abstraction......Security
+
+JAVA:
+=====
+java is a object oriented programming language, which is used to develop both standalone and distributed applications.
+
+
+History:
+========
+developed by sunMicrosystems in 1995.......Oracle corporation.
+
+James Goslings is father of java.
+
+current version :java se 21
+standard versions:java se 8,11,17, 21
+
+Long Term support (LTS)
+
+3 Editions of java:
+==================
+1.Java Standard Edition(JSE)
+2.Java Enterprise Edition(JEE)
+3.Java Micro/Mobile Edition(JME)
+
+Prerquisites of java Program:
+=============================
+java...java software...JDK
+
+www.oracle.com...... jdk 8, 11,17
+
+1.download n install java software
+2.we need editors: notepad,notepad++,Eclipse,netbeans,intelliJ,,..
+3.write java code
+4.save .java extension
+5.Compile the program
+6.Execute the program
+
+
+structure of java program:
+==========================
+
+class <ClassName>
+{
+public static void main(String args[]){
+
+//logic
+}
+
+}
+
+Compilation:
+=============
+converting high level language into machine level language 
+
+source code-----compiler----byte code
+.java                        .class
+
+
+To compile :
+javac Filename.java
+
+To execute:
+java ClassName
+
+why java??
+===========
+1. Platform independence
+2. Garbage collection
+
+1. Platform independence:
+
+WORA: Write Once, Run Anywhere
+
+windows..................mac 
+.java
+.class-------------------.class
+
+2.Garbage Collection:-->>performance
+
+500
+2
+
+498.... Garbage Collector...>>collect unwanted memory
+
+Fundamentals of java:
+======================
+
+structure of java program:
+==========================
+
+class <ClassName>
+{
+public static void main(String args[]){
+
+//logic
+}
+
+}
+
+keywords:
+we have 53 keywords in java.
+
+Class: Every java code has to be written inside class.
+
+main(): Entry point of java program.
+ 
+ jvm..Java Virtual Machine
+
+** compilation starts from the first line of code, but execution of java code always from the main().
+
+class: keyword...>>declare 
+
+public:keyword...access modifier...visible to all.
+
+static: keyword...class property
+
+void: keyword...returns nothing
+
+main():name of method
+
+(String args[]): String is predefinrd class,  datatypes
+
+args[]: it is parameter for main method
+
+System.out.println: predefinrd class.object.method
+
+
+working of java program:
+=========================
+					compiler				jvm					cpu
+java source code...............byte code...........machine code......output
+
+
+JDK,JRE,JVM:
+=============
+Java Development Kit--JDK
+JAva Runtime Environment---JRE
+Java Virtual Machine ----JVM
+
+JDK: developement tools+ [JRE]}
+===================================
+1.Development tools....develop java code---->>compiler,debugger
+2.JRE..... to execute our code
+
+JRE:[JVM]+class libraries
+==========================
+software package to execute java code.
+
+JRE is superset of JVM
+
+JVM:
+====
+jvm is responsible for executing the java code.
+
+input for jvm....byte code
+
+*both compiled and intrpretd language.
+
+
+Language Funadmentals:
+=======================
+main method()
+identifers
+keywords
+data types
+types of variables
+command line arguments
+arrays
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
