@@ -209,6 +209,103 @@ types of variables
 command line arguments
 arrays
 
+Keywords:
+=========
+53 keywords.
+
+* all the keywords have to be in lowercase.
+
+Identifiers:
+============
+
+A name in java 
+
+classname,variable name,method name,interface name...
+
+rules:
+------
+a to z
+A to Z
+0 to 9
+$
+_ (underscore)
+
+
+1.no other symbols
+2.should not start with digits
+3.keywords are not allowed to use as identifiers
+
+Eg:
+Welcome
+
+class HelloWorld
+{
+public static void main(String args[]){
+
+//logic
+}
+}
+
+eg;
+ name1 ..valid
+ 1name ..inavlid
+ 
+ num$=10; valid
+ Num#=20; invalid
+ 
+ public=50; //keyworrds invalid
+ 
+ name$----valid
+ _$_$_$ ---valid but take meaningful names
+ 
+ 15keys---invalid
+ 
+ 
+Naming Conventions:
+====================
+* ClassName always starts with a uppercase letter. eg: Helloworld...HelloWorld
+*variable names,method names follow camelCase. eg: nameOfStud,additionOfTwo(),,....
+*keywords has to be in lowercase.
+* java is case sensitive.
+
+
+Datatypes:
+==========
+
+Representing the type of data we want to store in variables.
+
+2types:
+
+1.Primitive
+2.Non Primitive : eg:class,String,arrays,,....
+
+1byte= 8bits
+
+range: -2^n-1 to (2^n-1)-1..... n =no. of bits
+
+	Datatypes		size		range					default values
+
+	byte			1byte		-128 to 127      			0         
+	short           2byte		-32768 to 32767				0
+	int				4byte       -2147483648 to 2147483647    0
+	long            8byte									0
+
+	float 			4              6 to 7 decimal places     0.0
+	double			8				15 decimal places         0.0
+
+	char            2bytes         0 to 65535(unicode system)   (space charactter)
+
+	boolean          1bit          na 						false
+
+
+
+
+
+
+
+
+
+
 
 
 
