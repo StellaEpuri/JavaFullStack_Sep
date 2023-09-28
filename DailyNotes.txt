@@ -283,31 +283,147 @@ Representing the type of data we want to store in variables.
 
 range: -2^n-1 to (2^n-1)-1..... n =no. of bits
 
-	Datatypes		size		range					default values
+	Datatypes		size		range						default values
 
-	byte			1byte		-128 to 127      			0         
-	short           2byte		-32768 to 32767				0
-	int				4byte       -2147483648 to 2147483647    0
-	long            8byte									0
+	byte			1byte		-128 to 127      				0         
+	short           2byte		-32768 to 32767					0
+	int				4byte       -2147483648 to 2147483647   	0
+	long            8byte										0
 
-	float 			4              6 to 7 decimal places     0.0
-	double			8				15 decimal places         0.0
+	float 			4             6 to 7 decimal places     	0.0
+	double			8			 upto 15 decimal places         0.0
 
 	char            2bytes         0 to 65535(unicode system)   (space charactter)
 
-	boolean          1bit          na 						false
+	boolean          1bit          na 							false
 
+Variables:
+==========
 
+A variable is the name of memory location where our data gets stored.
 
+syn:
+      <datatype> <variablename> = data/value;
+	  
 
+	eg:int i=10;
+             22
 
+		vary+able:value can be chnaged
 
+		declaration: <datatype> <variablename>;
+		             int i;
+					 
+		initialization: <datatype> <variablename> = data/value;	 
+					 int i=50;
+					 
+					 camelCase
+					 
+					 variables: 2types
+						1.global variabls
+						2.Local variables
+						
+					Local: variables defined inside a method
 
+					global: variables which are inside the class, but outside the method.
+					
+					class Test{
+					//global variables
+					psvm(){
+					//local variables
+					}
+					}
+						
+				global : 2types
 
+						1.Static variables
+						2.Instance variables
+						
+			4 properties:
 
+1.syntax: if static keyword, static variable	
 
-
-
+				no static keyword, instance variable
+						
+2.Memory: static:-memory allocated only once at the time of class loading into JVM.	
+					
+		 instance:-for evry object creation.			
+						
+						
+					object is instance of class.
+					
+					ClassName objref=new ClassNAme(); //object creation
+						Test obj=new Test();
+						Test obj2=new Test();
+						
+3.How to access: static:- accessed by using the classname
+				instance: accessed by using the object reference.
+				
+4.when to use:static:-	common properties	eg:collegename,countryname,....		
+				instance:- unique properties	eg:name,contact,...	
+						
+		
+		Typecasting:
+		============
+		widening
+			converting smaller type data into larger types.
+			
+			byte->short->char->int->long->float->double
+			
+		narrowing
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
 
 
 
