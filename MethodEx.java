@@ -17,6 +17,11 @@ public class MethodEx {
 		System.out.println("This is a parameterized method");
 		System.out.println("marks of"+name+":"+marks);
 	}
+public int addition(int a,int b) {
+		
+		return a+b;
+			
+	}
 	public static void main(String[] args) {
 		
 		MethodEx obj=new MethodEx();
@@ -27,6 +32,7 @@ public class MethodEx {
 		
 		obj.show("stella", 99);
 		
+		System.out.println(obj.addition(150, 20));
 		
 	}
 
