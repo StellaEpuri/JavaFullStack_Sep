@@ -373,6 +373,85 @@ syn:
 		narrowing
 		
 		
+		Methods:
+		========
+		
+		Method is a block of code which is defined to perform specific task.
+		
+		
+		**Code Reusability
+		
+		syn: 
+		[access modifier] <return type> <method name>([parameters if any]) //method header
+		{
+		//logic 
+				//method body
+		}
+		
+		eg: public static void main(String[] args)
+		{
+		
+		}
+		
+		** methods get executed only when called.
+		
+		additionOfTwo--camelCase
+		
+		2types:
+				1.predefinrd method..... eg:main(),print(),length(),...
+				2.userdefined method....static & instance
+				
+				static method...calling with classname
+				instance method...calling with object reference
+				
+				
+		
+		packages:     https://docs.oracle.com/javase/8/docs/api/
+		==========
+		collection of class libraries.
+		
+		package, import keywords
+		
+		***java.lang is default package
+		
+		**object class is the super class of all the java classes.
+				--11 methods.
+		
+		
+		import keyword
+		import package.*;
+		import package.classname;
+		
+		predefinrd packages
+		userdefined packages
+		
+		package .... domain.company.package
+		
+		package com.corejava.basics;
+		
+		to compile: javac -d . filename.java
+		
+		to execute: java packagename.filename
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
