@@ -433,10 +433,72 @@ syn:
 		
 		to execute: java packagename.filename
 		
+	================================================
+	Dynamic i/p from users:
+--------------------------------	
+	
+	run time i/p....by user
+	
+	 1.Command line arguments
+	*2.Scanner Class
+	 3.BufferedReader(in files i/o)
+	
+	1.Command Line Arguments:
+	-------------------------
+	
+	public void display(String name){
+	
+	sop(name);
+	}
+	
+	obj.display("stella");
+	
+	public static void main(String[] args){
+	
+	}
+	
+	int[] a=1,2,3,4;
+	String name="stella";
+	
+	String names[]={"sandy","stella","125","true","25.22"};
+	index
+	
+	**
+	Wrapper classes:
+	=================
+	
+		datatypes			WrapperClasses
+		===================================
+		byte				Byte		
+		short				Short
+		int					Integer
+		long				Long
+		float				Float
+		double				Double
+		char				Character
+		boolean				Boolean
 		
 		
+		parseInt(),parseFloat(),....
 		
 		
+	Scanner class:
+	==============
+	java.util package
+		
+		Scanner scan=new Scanner(System.in);
+		
+		next(),nextInt(),nextFloat();
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
 		
 		
 		
