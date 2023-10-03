@@ -491,6 +491,145 @@ syn:
 		next(),nextInt(),nextFloat();
 		
 		
+		Operators:assignment
+		
+		javatpoint
+		
+	Flow controls:
+	===============
+	
+	they describe the order in which te stmts will be executed.
+	
+	1.Selection stmt/Decision making stmts
+	2.Loop stmts/Iterative stmts
+	3.Jump stmts/Transfer stmts
+	
+	1.Decision making stmts:
+	=========================
+	
+	which stmt to execute and when.
+	
+	
+	if stmt
+	switch stmt
+	
+	
+	true/false
+	
+	
+	simple if:
+	==========
+	
+	syn:
+	
+			if(condition){
+			
+			//staments
+			}
+	
+	whn condition is true.
+	
+	if else:
+	=======
+	
+	if(condition){
+	
+	//stmt1;//condition is true
+	}
+	else{
+	stmt2;//condition is false
+	}
+	
+	if else if ladder:
+	===============
+	if(condition1){
+	//stmt1;
+	}
+	else if(condition2){
+	//stmt2;
+	}
+	else{
+	stmt3;
+	}
+	
+	Nested if:
+	===========
+	if(condition1){
+	stmt1;
+	if(condition2){
+	//stmt2;
+	}
+	else{
+	stmt3;
+	}
+	}
+	
+	2.Switch stmt:
+	==============
+	syn:
+	
+	switch(expression){
+	
+	case 1:
+        //code
+
+	case 2:
+		//code
+	
+	default:
+	
+		//code
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
