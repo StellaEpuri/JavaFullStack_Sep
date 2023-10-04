@@ -582,6 +582,75 @@ syn:
 	}
 	
 	
+	2.Iterative stmt/Loop stmts:
+	===============================
+	
+	evaluating boolean expression.
+	
+	1.For loop
+	2.While loop
+	3.Do-while loop
+	
+	1.For loop:
+	===========
+	if no of iteraions are known, we choose for loop.
+	
+	for(initialization;condition;increment/decrement)
+	{
+	//code
+	}
+	
+	2.While loop:
+	=============
+	if we do not know no. of iterations in advance
+	
+	while(condition){
+	//code to iterated
+	increment/decrement
+	}
+	
+	3.Do-while loop:
+	================
+	
+	if we do not know no. of iterations in advance, but if we want our code to get executed atleast once.
+	
+	do{
+	//code
+	}while(condition)
+	
+	
+	3.Transfer/ jump stmts:
+	======================
+	
+	1.break:
+	
+	loops,switch
+	
+	terminates the loop , and resumes at the nxt line after loop
+	
+	
+	2.continue:
+	
+	skips the current execution inside loop and continues the loop immediately
+	
+	operators:
+	==========
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
