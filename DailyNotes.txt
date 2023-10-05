@@ -636,27 +636,100 @@ syn:
 	operators:
 	==========
 	
+******************************************************************************
+	OOPS:
+	=====
+	OOP is about creating the objects that contain both data members(variable) and the member functions(method).
+	
+	oop paradigm--4
+	
+	1.Inheritance
+	2.Polymorphism
+	3.Abstraction
+	4.Encapsulation
+	
+	key aspects: class and object
+	
+	class:
+	=======
+	A class is a blueprint for objects.
+	
+	it is logical entity.
+	
+	collection of data members and member functions.
+	
+	objects are created for class properties.(variables,methods)
+	
+	object:
+	=======
+	object is an instance of class.//allocating memory for class properties
+	
+	objects are created for memory allocation to class properties.
+	
+	An object is an entity which has both state and the behavior.
 	
 	
+	class student{  		//---100stdents
+	
+	name 
+	rollno 
+	age
+	contact
+	
+	displayMarks(name, marks){
+	
+	}
+	
+	}
 	
 	
+	stdnt1.... stella //obj1
+				101
+				15
+				999999
 	
 	
+	stdnt2.....sandy  //obj2
+				102
+				16
+				89998
+				
 	
+	1.INHERITANCE:
+	===============	
 	
+	Acquiring the properties from one class to another class.
 	
+	properties can be variables,methods,constructors,interface,...
 	
+	CODE REUSABILITY**
 	
+	**extends, implements keywords are used in inheritance
 	
+	class A{
 	
+	//100 methods+//11methods logically from object class
 	
+	}
 	
+	public class B extends A{
 	
+	//50 methods
+	+100 methods //logical from A
+	+11 methods //logically from object class
+	}
 	
+	***Object class is super class of all java classes by default(11 methods)
 	
+	different types:
+	================
+	1.single inheritance------one parent-one child
+	2.multilevel inheritance
+	3.hierarchial inheritance
+	*4.multiple inheritance
+	5.hybrid inheritance
 	
-	
-	
+	**multiple inheritance is not supported in java @classlevel.
 	
 	
 	
