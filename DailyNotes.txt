@@ -724,12 +724,57 @@ syn:
 	different types:
 	================
 	1.single inheritance------one parent-one child
-	2.multilevel inheritance
-	3.hierarchial inheritance
-	*4.multiple inheritance
+	2.multilevel inheritance---super parent--parent--child
+	3.hierarchial inheritance---parent--child1,child2
+	*4.multiple inheritance---many parents--single child
 	5.hybrid inheritance
 	
 	**multiple inheritance is not supported in java @classlevel.
+	
+	
+	**Multiple inheritance in java is supported @Interface level
+	
+	abstract methods and concrete methods:
+	=======================================
+	concrte method:
+	----------------
+	return type method name(){//method signature
+	//logic
+	//method body
+	}
+	
+	method with implementation 
+	
+	abstract method:
+	===============
+	method without implementation
+	
+	public void display();
+	
+	abstract keyword
+	
+	public abstract void display();
+	
+	why??
+	
+	whatsapp send button
+	
+	Abstraction:
+	=============
+	
+	Hiding the unwanted things from the end user.
+	
+	Security
+	
+	
+	abstract class and interface
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
