@@ -724,7 +724,7 @@ syn:
 	different types:
 	================
 	1.single inheritance------one parent-one child
-	2.multilevel inheritance---super parent--parent--child
+	2.multilevel inheritance---super parent--parent--child(chain of inheritance)
 	3.hierarchial inheritance---parent--child1,child2
 	*4.multiple inheritance---many parents--single child
 	5.hybrid inheritance
@@ -767,7 +767,47 @@ syn:
 	Security
 	
 	
-	abstract class and interface
+	abstract class and interface:
+	==============================
+	concrete class:collection of concrete methods
+	
+	abstract class:collection of both concrete methods and abstract methods.
+	
+	interface:collection of abstract methods.
+	
+	** interface keyword.
+	
+	public abstract void m1();
+	
+	**we cannot create objects for abstract class and interface.
+	
+	2ways:
+	======
+	1.Abstract classes(0-100%)
+	2.Interface(100%)
+	
+	
+	Multiple Inheritance:
+	======================
+	class A{							class B{
+	
+	void m1(int a,int b)				void m1(int a,int b)
+	{									{
+	syso(a+b)							syso(a*b)
+	
+	}									}
+	}									}
+	
+	class C extends A,B{
+	
+	psvm(){
+	C c=new C();
+	c.m1(10,5);
+	}
+	
+	}
+	
+	
 	
 	
 	
