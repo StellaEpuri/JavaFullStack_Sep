@@ -807,6 +807,162 @@ syn:
 	
 	}
 	
+	Polymorphism:
+	==============
+	
+	poly--many
+	morphs-- forms
+	
+	having many forms.
+	
+	single task in different ways--java
+	
+	eg: humans...as child,student,friends....
+	
+		print method
+	
+		print
+	
+	2types:
+		
+		1.Compile time polymorphism
+		2.Run time polymorphism
+		
+		
+		acheived in 2ways:
+			
+			1.Method Overloading
+			2.Method Overriding
+		
+		
+	Method Overloading:
+	===================
+	
+	method name is same, but signature different
+	
+	signature...>>no.of params,order of params, types of params.
+	
+	print..overloaded to accept all types of data.
+	
+	adv: code readability
+	
+		printString
+		printInt
+		printFloat   //decreases code readability.
+		
+	+ addition, concatenation
+	
+	fname+lastname  stella+epuri    stella epuri
+	
+	calculator:add 2 3
+				sum	2 3 4
+				toatl 2 3 65 6
+	
+	type promotion in method overloading:
+	======================================
+	
+	smaller type to larger type conversions.
+	
+	
+	Method Overriding:
+	==================
+	Method name is same, but implementation will be different.
+	
+	parent class method will be overridden by child class.
+	
+	
+	rules:
+	
+	1.method name and signature has to be same.
+	2. parent child relation.
+	
+	parent - child 
+	class Parent{
+	
+	int property(){//100 more methods
+	
+	return 100000000;
+	
+	}
+	public void wedding(){
+	sop("sam")
+	
+	}
+	}
+	class Child extends Parent{
+	
+	@Override
+	public void wedding(){
+	sop("xxxx")
+	
+	} 
+	
+	}
+	psvm(){
+	Child c=new Child();
+	
+	c.wedding();
+
+	}
+	
+	
+	assignment:
+	---------
+	Parent  marks ++marks 
+	
+	child --marks
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
