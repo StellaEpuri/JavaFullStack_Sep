@@ -910,46 +910,82 @@ syn:
 	---------
 	Parent  marks ++marks 
 	
-	child --marks
+	child --marks  --marks
 	
+	Constructor:
+	============
+	special member method.
 	
+	used to initialize the object.
 	
+	int a;//declaration
 	
+	int a=10;//initialization
 	
+	classname obj=new classname();
 	
+	classname obj=new constructor();
 	
 	
+	**constructor gets called everytime.... whenever an object is created.
 	
+	rules:
+	======
 	
+	1.classname and constructor name both need to be same.
 	
+	2.no return type.
 	
+	2 responsibilities:
+	--------------------
+	1.to initialize the object.
 	
+	2.to provide default values to the instance properties.
 	
 	
+	2types:
+	-------
+	1.Default constructor : without parametres
 	
+	2.Parameterized constructor : with parameters
 	
+	class Test{
 	
+	Test(){
 	
+	}
 	
+	}
 	
+	class A{
 	
+	int b;
 	
+	psvm(){
+	A obj=new A();
+	sop(obj.b);//0
+	}
+	}
+	Note:
+	=====
+	compiler automatically creates a default constructor if there is none.
 	
+	Parameterized constructor:
+	==========================
+	used to provide different values to different objects.
 	
+	class Test{
 	
+	Test(parameters){
 	
 	
-		
-		
-		
-		
-		
-		
-		
-		
+	}
 	
+	}
 	
+	**one default constructor is allowed and any no. of parameterized constructors.
 	
+	>>Constructor overloading is possible.
 	
 	
 	
@@ -981,196 +1017,3 @@ syn:
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-					 
-					 
-					 
-					 
-					 
-					 
-					 
-					 
-					 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
