@@ -988,6 +988,79 @@ syn:
 	>>Constructor overloading is possible.
 	
 	
+	final,this,super keywords:
+	===========================
+	
+	Final keyword:
+	==============
+	
+	**to restrict the user.
+	
+	3places:
+	========
+	1.before variable
+	2.before method
+	3.before class
+	
+	1.before variable:
+	==================
+	once declared with final, values within the variable cannot be changed.
+	
+	2.before method:
+	=================
+	cannot change the method implementation(overriding is not possible)
+	
+	3.before class:
+	===============
+	we cannot extend the final class.(inheritance is not allowed)
+	
+	
+	this & super keywords
+	======================
+	this keyword is used to refer to the current class properties
+	
+	super keyword is used to refer to the parent class properties
+	
+	properties can be variable,method,object, constructor
+	
+	note:
+	=====
+	Constructor call must be the first statement in a constructor
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
