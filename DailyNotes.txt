@@ -1028,9 +1028,27 @@ syn:
 	Constructor call must be the first statement in a constructor
 	
 	
+	Access Modifiers:
+	=================
+	4 modifiers:-
+	
+		1.public
+		2.private
+		3.protected
+		4.default
+		
+		scope/ accessibility of class,variable,methods,constructors.
 	
 	
-	
+	1.private:only within the class,cannot access outside the class.
+
+	2.protected:anywhere within the package whether it is child or not,but outside the package we can access 
+	             only when   there is a parent child class relation(inheritance)
+
+	3.default: if we are not using any modifier, it behaves as default.
+				....>> only within the package,cannot access outside the package.
+
+	4.public: can be accessed everywhere.
 	
 	
 	
