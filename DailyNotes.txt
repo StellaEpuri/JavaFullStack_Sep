@@ -1089,6 +1089,141 @@ syn:
 ...>> This can be used to achieve data hiding. Encapsulation in itself is not data hiding.
 
 	
+	String class,StringBuffer,StringBuilder:
+	========================================
+	string:sequence/ collection of characters.
+	
+	>>It is non-primitive datatype
+	
+	>>predefined class available in java.lang  package
+	
+	>>special class for representing set of characters.
+	
+	
+	String name="stella";
+	
+	note:
+	=====
+	All the strings are object of a predefined class called String.
+	
+	3classes:.....Strings
+	--------
+	1.String
+	2.StringBuffer
+	3.StringBuilder
+	
+	**all these 3 classes are available in java.lang package.
+	
+	1.String class: immutable strings(not changeable)
+	2.StringBuffer,StringBuilder: muttable strings(changeable)
+	
+	
+	String:
+	=======
+	2ways to create string object.
+	
+	1.by using literal syntax:
+			
+			String name="java";
+			
+	2.by using new keyword
+	
+			String name=new String("java");
+			
+		
+		Memory areas:
+		=============
+
+		instance:Heap area
+		static:Method area
+		local:Stack area.
+		
+	StringConstantPool:(SCP)
+	=======================	
+		String is a special class, it will get memory space in string constant pool.
+
+		**SCP will not allow duplicates.
+		
+		1.using string literal:
+		=======================
+
+		String name="welcome";
+		String name1="welcome";
+		String name2="welcome";
+
+		not creating different memory allocations.
+		
+		2.using new keyword:
+		====================
+		
+		String s=new String("welcome");
+		String s2=new String("welcome");
+		
+		new keyword-->> new memory creation inside heap area.
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+		
+			
+			
+			
+			
+			
+			
+			
+			
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
