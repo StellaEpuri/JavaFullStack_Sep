@@ -1161,6 +1161,79 @@ syn:
 		
 		new keyword-->> new memory creation inside heap area.
 		
+		comparing:
+		-----------
+		"==" operator 
+		equals()
+		compareTo()
+		
+		"==" operator checks for the memory references
+		equals() checks for the values.
+		
+		compareTo() returns int value.
+		>>comparing the strings lexicographically.
+		
+				returns 0,if both objects are same.
+				returns negative, if obj1 comes before obj2.
+				returns positive, if obj1 comes after obj2.
+		
+		String class methods:
+		
+		https://www.w3schools.com/java/java_ref_string.asp
+		
+		why string is immutable??
+		==========================
+		scp doesnot allow duplicates.
+		
+		string has to be immutable, bcz we dongt want other memory references to get changed.
+		
+		StringBuffer and StringBuilder:
+		=================================
+		
+		StringBuffer sb=new StringBuffer("java");
+		
+		
+		string ...equals()....values
+		sb........equals()....memory references
+		
+		
+		
+		difference :
+		
+		stringBuffer...synchronized methods
+		StringBuilder....no synchronized methods
+		
+		synchronized:
+		==============
+		t1,t2,t3 
+		
+		synchronized:t2,t3 has to wait until the completion of t1 execution....thread safety
+		
+		non-synchronized:t1,t2,t3 can execute simultaneously.
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
