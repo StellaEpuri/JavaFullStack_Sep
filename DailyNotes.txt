@@ -1212,10 +1212,47 @@ syn:
 		non-synchronized:t1,t2,t3 can execute simultaneously.
 		
 		
+		Arrays:
+		=======
 		
+		It is an indexed collection of fixed no. of homogeneous data elements.
 		
+		**an array in java is an object.
 		
+		String name="stella";
 		
+		String[] name={"stella","sandy"};//literal way
+		
+		int[] num={1,2,3,6};
+		
+		String[] name=new String[5];//new keyword
+		
+		advantages:
+		===========
+		
+		>>group of elements/data together.
+		
+		>>code readability
+		
+		disadvantages:
+		===============
+		1.stores only similar data.
+		
+		2.an array is fixed in size.
+		
+		note:
+		=====
+		array will get stored in heap area.
+		
+		arrays can be accessed with the help of index values.
+		
+		2 types of arrays:
+		===================
+		1.single dimensional array
+		2.multi dimensional array
+		
+		1 2 3
+		4 5 6
 		
 		
 		
