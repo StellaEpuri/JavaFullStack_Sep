@@ -1254,6 +1254,45 @@ syn:
 		1 2 3
 		4 5 6
 		
+		Exception Handling:
+		===================
+		A mechanism of converting system defined error messages into user friendly error messages.
+		
+		limitations:
+		
+		1.system defined error message.
+		2.abnormal termination 
+		
+		exception handling:
+		-------------------
+		try
+		catch
+		finally
+		throw
+		throws
+		
+		errors:
+		======
+		compile time error....>>poor understanding of the language
+		runtime error(Exception).....>> invalid input
+		
+		Exception:
+		===========
+		exception is an unexpected event that disrupts the normal flow of the program.
+		
+		object thrown at the runtime.
+		
+		types of exceptions:
+		--------------------
+		1.checked exceptions
+		2.unchecked exceptions
+		3.errors
+		
+		
+		
+		
+		
+		
 		
 		
 		
