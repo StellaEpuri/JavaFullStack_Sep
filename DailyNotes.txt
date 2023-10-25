@@ -1263,11 +1263,11 @@ syn:
 		1.system defined error message.
 		2.abnormal termination 
 		
-		exception handling:
+		exception handling: 5 keywords
 		-------------------
-		try
-		catch
-		finally
+		try  :risky code
+		catch :handling code
+		finally: clean-up code
 		throw
 		throws
 		
@@ -1281,6 +1281,8 @@ syn:
 		exception is an unexpected event that disrupts the normal flow of the program.
 		
 		object thrown at the runtime.
+		
+		>>Throwable class is the root class of all the exception classes.
 		
 		types of exceptions:
 		--------------------
