@@ -1267,9 +1267,9 @@ syn:
 		-------------------
 		try  :risky code
 		catch :handling code
-		finally: clean-up code
-		throw
-		throws
+		finally: clean-up code(closing connections,..)
+		throw: to throw the exception explicitly.
+		throws: to declare the exceptions.
 		
 		errors:
 		======
@@ -1282,7 +1282,7 @@ syn:
 		
 		object thrown at the runtime.
 		
-		>>Throwable class is the root class of all the exception classes.
+		>>Throwable class is the root class of all the exception classes.,,Exception class inherits Throwable.
 		
 		types of exceptions:
 		--------------------
@@ -1291,12 +1291,39 @@ syn:
 		3.errors
 		
 		
+		system defined
+		user defined
+		
+		user defined exception:
+		=======================
+		1.take class....child to Exception class.
+				extends Throwable,Exception.
+		
+		2.take one parameterized constructor and a toString method.
 		
 		
+		File Handling:
+		===============
+		File ...predefined class...java.io package.
 		
+		create,write,read 
 		
+		predefined classes to write into file:
+		---------------------------------------
 		
+		FileWriter
+		BufferedWriter
+		PrintWriter
 		
+		predefined classes to read from file:
+		-------------------------------------
+		
+		FileReader
+		BufferedReader
+		
+		File class:
+		===========
+		File f=new File("hello.txt");
 		
 		
 		
