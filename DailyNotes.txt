@@ -1325,7 +1325,80 @@ syn:
 		===========
 		File f=new File("hello.txt");
 		
+		FileWriter:
+		===========
+		write()...to write data
+			limitations:
+			-------------
+				1.no number data is allowed.
+				2."\n" is not supported in every o.s
+				
+				
+		BufferedWriter:
+		================
+			limitations:
+			------------
+			1.no number data is allowed.
+			2.newLine() all the time.
+			
+			
+		PrintWriter:
+		=============
+			
+		FileReader:
+		===========
+		limitations:(time taking)
+		------------
+		read() will read the data character by character
+			
+		BufferedReader:
+		=================
+		 readLine(): reads line by line
 		
+
+	Serialization and DE-serialization:
+	===================================
+	
+	Serialization: converting object data into byte data.
+	
+		to serialize: 2 classes
+		
+			1.FileOutputStream
+			2.ObjectOutputStream......writeObject()
+	
+	DE-serialization: converting byte data into object data.
+	
+		to de-serialize: 2 classes
+		
+			1.FileInputStream
+			2.ObjectInputStream......readObject()
+	
+	
+		**serializable is a marker interface(having zero abstract methods).
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+			
+		
+		
+		
+		
+				
+			
 		
 		
 		
