@@ -1377,9 +1377,196 @@ syn:
 		**serializable is a marker interface(having zero abstract methods).
 					
 
+	Multi Threading:
+	================
+	Executing multiple tasks at a time.
+	
+	1.process based
+	2.Thread based
+	
+	class Test{
+	
+	opening and reading from a file...5hrs// thread1
+	
+	
+	1000 lines of code // thread2
+	
+	}
 
+	why??....to improve response time for better performance.
+	
+	in java?
+			 2ways:
+					1.by implementing Runnable Interface.
+					2.by extending Thread class.
+					
+					
+	Runnable Interface:
+	====================
+	Runnable is a Functional interface.(SAM)
+	
+	javap java.lang.Runnable
+	
+	public interface java.lang.Runnable {
+	public abstract void run();
+	}
+	........>>single abstract method(SAM).
+	
+	
+			1.	class Test implements Runnable{
+				 run(){
+				 //code for which thread need to be created.
+				 }
+				
+				}
+	Thread class:
+	==============
+	child class of Runnable interface.
+	>>start()
+	
+	1.Using Runnable:
+ =================
+ **Thread will be created only when we call start() method.
+ 
+ >>start() method is present in Thread class.
+ 
+ >>To call start(), we are creating Thread class object.
+ 
+ >>start() method internally calls the run() method which will create threads.
+ 
+ 
+ ***By default, we have "main" thread(main method logic)
+ 
+ >>The threads we create become the child threads to the main thread.
+ 
+ >>Garbage collector is also one of the threads which execute during execution .
+ 
+ **we cannot predict output when multithreading.
+ 
+....>> Threads will be executed by thread scheduler in Operating system.
+ 
+ 
+ Thread Priorities:
+ ==================
+ for every thread their will be priority.
+ 
+ priority range:1-10
+ 
+ 1-min priority
+ 10-max priority
+ 5-norm priority(default)
 
+priority of main thread is 5.
 
+**currentThread() is a method in Thread class whch returns the currently executing thread object.
+
+.....>> it is a static method in thread class.
+...>>returns object 
+ 
+Thread lifecycle:
+=================
+ Thread have following states:
+New
+Runnable
+Running
+Waiting/blocked/sleeping
+Terminated (Dead) 
+ 
+ sleep():we have to specify the no. of nano seconds(1000nano secs=1sec)
+========
+ if we call sleep(), the current executing thread will go to waiting state.
+ 
+ yield():
+ ========
+ t1:5
+ 
+ t2:6
+ 
+ t3:7
+ 
+ if we call yield(),it will pause current executing thread and check for priorities of other threads.
+ 
+ >>if other thread priority is greater than current thread priority,then it will stop current thread execution and gives chance to highest priority thread.
+ 
+ >>if other thread priorities are low, then current thread will continue execution.
+ 
+ >>if all priorities are same, then execution depends on thread scheduler.
+ 
+ join():
+ =======
+ if a thread wants to wait until the completion of some other thread, then we should go for join().
+ 
+ synchronization:
+ =================
+ 
+ we achieve synchronization with synchronized keyword.
+ 
+ with synchronization we can have controlled threads.
+ 
+ >>execution of all threads simultaneously is not possible.
+ 
+ t1,t2,t3 are threads ....
+ 
+ if t1 has started execution, t2 and t3 has to wait until completion of t1.
+ if t2 has started execution, t1 and t3 has to wait until completion of t2....
+ 
+ we can avoid inconsistent data with synchronization.
+ 
+ advantages:
+ 
+ consistent data
+ 
+ disadvantage:
+ 
+ performance may reduce.
+ 
+ InterThread communication:
+ ==========================
+ 
+ InterThread communication is about allowing the synchronized threads to communicate with each other.
+ 
+ we acheive inter thread communication with 3 methods.
+ 
+ wait()
+ notify()
+ notifyAll()
+ 
+ NOTE:All three methods belong to the Object class(Not Thread class)
+ 
+ wait():
+ 
+ Is used to move running thread to waiting area.
+ 
+ notify():
+ 
+ is used to inform waiting thread to come back to running area.
+ 
+ 
+	
+	1 - 10
+	2,4,6,8,10
+	1,3,5,7,9
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 
 
