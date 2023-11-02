@@ -1548,6 +1548,48 @@ Terminated (Dead)
 	1,3,5,7,9
 	
 	
+	***Collection:
+	================
+	
+	If group of objects put(store) together into a single entity....collection.
+	
+	Collection Framework:
+	=====================
+	readymade template
+	
+	Limitations of Arrays:
+	-----------------------
+	1.Homogeneous objects can be stored.(similar data)
+	2.Arrays are fixed in size.
+	3.no utility methods in arrays.
+	
+	Advantages of Collection:
+	=========================
+	1.both homogeneous and heterogeneous objects can be stored.(similar and dissimilar)
+	2.collections are not fixed in size.
+	3.many utility methods in collections.
+	
+	variable
+	arrays
+	collection
+	
+	>>present in java.util package.
+	
+	*****
+	default size of arraylist is :10
+			(cc*3/2)+1
+	default size of linkedlist is :10(adding nodes)
+	default size of vector is :10(doubly linked list algorithm)20
+	
+	Comparable and Comparator:
+	===========================
+	
+	comparable....compareTo().....Natural Sorting order..java.lang package
+	
+	Comparator....compare()......Custom sorting order....java.util package
+	
+	
+	
 	
 	
 	
