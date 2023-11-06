@@ -1,6 +1,6 @@
 package com.corejava.casestudy;
 
-public class Account {
+public class Account {//POJO--Plain old java objects
 
 	private long accNo;
 	private String accHolderName;
