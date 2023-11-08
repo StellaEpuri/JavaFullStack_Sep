@@ -1605,14 +1605,103 @@ Terminated (Dead)
 	1.Lambda Expression
 	2.Functional Interface
 	3.default,static methods in interfaces
+	4.Predefined Functional Interfaces
+			predicate
+			function
+			consumer
+			supplier
+	5.Date and Time Api	
+	
+	Objectives of java8:
+		1.simplified code(concise)
+		2.to introduce functional programming
+		3.To enable parallel programming
+		
+	1.Lambda Expression:
+	=====================
+	Anonymous Function
+			Nameless
+			No return type
+			No access modifiers
+			
+		eg:
+		 
+		 public void m1(){
+		 
+		 syso("HelloWorld");
+		 
+		 }
+	
+	L.E: ()-> syso("HelloWorld");
+		 
+	eg: public void addition(int a,int b){
+	
+		syso(a+b);
+		
+	    }
+	
+	L.E:(a, b) -> syso(a+b);
+		
+	2.Functional Interface:
+	========================
+	interface having SAM.
+	    
+		Annotation: @FunctionalInterface....it is optional
+		
+		
+	3.default,static methods in interfaces:
+	=======================================
+	from java 1.8; default and static methods will be used in INTERFACES.
+	
+	Default Method in interface:
+	----------------------------
+	interface I{
+	 void m1();
+	 
+	 default void m2(){
+	   syso("hello");
+	 }
+	}
+	class One implements I{
+	 void m1(){
+	 
+	 }
+	 @Override
+	 public void m2(){
+	 syso("hiii");
+	 }
+	}
+	class Two implements I{
+	 void m1(){
+	 
+	 }
+	}
+	class Three implements I{
+	 void m1(){
+	 
+	 }
+	}
+	
+	Static Methods in interface:
+	=============================
+	
+	class    vs   interface
+	
+	costly         cheap
+	heavier			lighter
 	
 	
+	static methods in classes
+	
+	static methods @Interfaces.....from java 1.8
 	
 	
+	5.Date and Time Api	
+	===================
 	
-	
-	
-	
+	LocalDate yyyy-mm-dd
+	LocalTime hour-min-sec
+	LocalDateTime
 	
 	
 	
