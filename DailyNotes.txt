@@ -1704,6 +1704,72 @@ Terminated (Dead)
 	LocalDateTime
 	
 	
+	DATABASE:
+	==========
+	Data: collection of raw information of any source.
+	
+	DataBase:Used to store and organise our data for future purpose and security.
+	
+	DBMS:DataBase Management System
+			 
+			s/w tool which is used to manage and access the database.
+	
+	RDBMS:to manage relational database.(mysql)
+	
+				relation-->>Table
+	
+				table:- association of rows and columns.
+					
+					rows-->> records
+					columns-->>fields
+	
+	
+	SQL: Structured Query Language
+	
+	Queries
+	
+	5types of Queries:
+	===================
+		1.DDL:Data Definition Language ---->>>create,alter,truncate,drop,rename
+		2.DML:Data Manipulation Language--->>>insert,update,delete,merge
+		3.DQL:Data Query Language/DRL:Retrieval-->>select
+		4.DCL:Data Control Language-->>grant,revoke
+		5.TCL:Transaction Control Language-->>commit,savepoint,rollback
+	
+	
+	CRUD: Create Read Update Delete 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
