@@ -1640,14 +1640,15 @@ Terminated (Dead)
 		
 	    }
 	
-	L.E:(a, b) -> syso(a+b);
+	L.E:(a, b) -> syso(a+b);//compiler can guess the type of parameters automatically sometimes.
 		
 	2.Functional Interface:
 	========================
-	interface having SAM.
+	interface having SAM.(Single Abstract Method)
 	    
 		Annotation: @FunctionalInterface....it is optional
 		
+		>>can be used to call/invoke lambda expression.
 		
 	3.default,static methods in interfaces:
 	=======================================
@@ -1738,6 +1739,50 @@ Terminated (Dead)
 	
 	
 	CRUD: Create Read Update Delete 
+	
+	operators
+	functions
+	joins
+	constraints
+	
+	constraints:rules applied on data.
+	************************************************************************************
+	JDBC:
+	======
+	Java DataBase Connectivity.
+	
+	>>it is an api.
+	
+	drivers are of four types:
+	
+	1.Jdbc-odbc bridge driver
+	2.Native Api driver
+	3.Network protocol driver
+	4.Thin Driver
+	
+	steps to follow to connect:
+	===========================
+		1.Loading the Driver class
+		2.create the Connection
+		3.create the Statement
+		4.execute the queries
+		5.close the connection
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
