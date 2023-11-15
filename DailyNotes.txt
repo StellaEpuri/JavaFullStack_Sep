@@ -1768,14 +1768,37 @@ Terminated (Dead)
 		4.execute the queries
 		5.close the connection
 	
+		#boiler plate code
+		
+	disadvantages of jdbc:
+	======================
+		1.Boilerplate code
+		2.Exception Handling
+		3.switching among databases is not that easy.
+		4.writing queries.
+		
+	JPA-Hibernate:
+	===============
+	JPA(Java Persistence Api)
+	=========================
+	specification given by sun micro systems.
 	
+	#interface
 	
+	Hibernate is a implementation.
 	
+	Entity Manager:(Interface)
 	
+	CRUD-->>>
 	
+	create/insert.....>>persist()
+	read/select.......>>find()
+	update............>>merge()
+	delete............>>remove()
 	
-	
-	
+	JPQL:JAVA Persistence Query Language
+	 
+		queries for java objects(Classes)
 	
 	
 	
