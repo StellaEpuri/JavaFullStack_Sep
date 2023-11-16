@@ -1799,6 +1799,98 @@ Terminated (Dead)
 	JPQL:JAVA Persistence Query Language
 	 
 		queries for java objects(Classes)
+	****************************************************************************
+	
+	Spring Framework:
+	=================
+	framework: readymade template
+	
+	2types of framework:
+	
+		1.Invasive Framework eg:struts..
+		2.Non-invasive Framework eg:spring,hibernate....
+	
+	removes boilerplate code, -->> performance increases
+	
+	
+	Spring:
+	
+	spring is a non-invasive framework, which is used to build light-weight and loosely-coupled applications.
+	
+	non-invasive and invasive
+	
+	light-weight and heavy weight
+	
+	loosely coupled and tightly coupled
+	
+	Invasive:
+	=========
+	
+	servlets:to develop web applications
+	
+	3 ways:
+			1.implements servlet
+			2.extends GenericServlet
+			3.extends HttpServlet(12)
+			
+			class Login extends HttpServlet{
+			//12 methods 
+			
+			}
+			100 classes-100*12=1200
+	
+
+	EJB: Enterprise Java Bean
+				invasive 
+	
+	
+	Spring: Rod Johnson-->>2003...1.x
+	
+	current version--6.x
+	
+	20modules...>>spring core,spring data,spring jdbc,spring jpa,spring boot,....
+	
+	loosely coupled:
+	================
+	A a=new A();
+	
+	class A{
+	
+	A(int a){
+	int x=10;
+	
+	}
+	void m11(){
+	
+	
+	}
+	
+	}
+	class B{
+	
+	//A obj=new A();
+	obj.m11();
+	
+	void m1(){
+	
+	
+	}
+	
+	}
+	
+	spring containers:2
+	
+		1.BeanFactory
+		2.ApplicationContext
+		
+	lifecycle of an object:
+	========================
+	1.creation of object
+	2.wiring the objects
+	3.configuring the object
+	4.destruction of object.
+	
+	
 	
 	
 	
