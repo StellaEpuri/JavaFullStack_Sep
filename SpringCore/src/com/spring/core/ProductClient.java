@@ -17,8 +17,7 @@ public class ProductClient {
 		
 		System.out.println(product);
 		
-		
-
+	
 	}
 
 }

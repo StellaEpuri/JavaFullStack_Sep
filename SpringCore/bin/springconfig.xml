@@ -8,6 +8,11 @@
     http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
   <bean id="product" class="com.spring.core.Product">
+  
+	<constructor-arg name="productId" value="123"></constructor-arg>
+	<constructor-arg name="productName" value="Apple"></constructor-arg>
+	<constructor-arg name="productDesc" value="Mobile"></constructor-arg>
+	<constructor-arg name="productPrice" value="150000"></constructor-arg>
 
 </bean>
  </beans>

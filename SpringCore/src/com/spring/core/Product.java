@@ -7,6 +7,12 @@ public class Product {
 	private String productDesc;
 	private int productPrice;
 	
+	@Override
+	public String toString() {
+		return "Product [productId=" + productId + ", productName=" + productName + ", productDesc=" + productDesc
+				+ ", productPrice=" + productPrice + "]";
+	}
+	
 	public int getProductId() {
 		return productId;
 	}
@@ -38,6 +44,7 @@ public class Product {
 	
 	public Product(int productId, String productName, String productDesc, int productPrice) {
 		super();
+		System.out.println("This is constructor injection");
 		this.productId = productId;
 		this.productName = productName;
 		this.productDesc = productDesc;
