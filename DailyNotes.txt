@@ -1885,19 +1885,36 @@ Terminated (Dead)
 		
 	lifecycle of an object:
 	========================
-	1.creation of object
-	2.wiring the objects
-	3.configuring the object
-	4.destruction of object.
+		1.creation of object
+		2.wiring the objects
+		3.configuring the object
+		4.destruction of object.
 	
 	
+	Spring core:
+	============
+	spring containers:2
 	
+		1.BeanFactory
+		2.ApplicationContext
+		
+	configurations: 3
+		
+		1.Xml Configuration
+		2.Annotation Configuration
+		3.Java Configuration
 	
+	Injecting the data: 3
 	
+		1.Setter Injection
+		2.Constructor Injection
+		3.Autowiring(dependent object)
 	
+	Autowiring: Injecting Dependent objects data--->>Dependency Injection
 	
-	
-	
+		<bean  autowire="">
+		setterInjection-->>byType,byName
+		constructorInjection-->>constructor
 	
 	
 	
