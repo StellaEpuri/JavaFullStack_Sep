@@ -1895,12 +1895,12 @@ Terminated (Dead)
 	============
 	spring containers:2
 	
-		1.BeanFactory
-		2.ApplicationContext
+		1.BeanFactory---------->>Lazy Initializer
+		2.ApplicationContext--->>Eager Initializer
 		
 	configurations: 3
 		
-		1.Xml Configuration
+		1.Xml Configuration(old approach)
 		2.Annotation Configuration
 		3.Java Configuration
 	
@@ -1916,140 +1916,63 @@ Terminated (Dead)
 		setterInjection-->>byType,byName
 		constructorInjection-->>constructor
 	
+	Maven:dependency tool
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	>>creates a maven project with all the depencies mentioned.
 
-
-
-
-
-
-
-
-
-
-
-		
-			
-		
-		
-		
-		
-				
-			
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-
-
-
-
-
-
-
-
-
-
-		
-			
-			
-			
-			
-			
-			
-			
-			
+	Annotation Configuration:
+	========================
 	
+	@Component--for which class u wantto create object.
+
+	@Autowired--to inject dependent object into main class object.
+
+	@Configuration--to make a java class as configuration file instead of xml configuration file.
+
+	@ComponentScan--to scan entire package classes so that, wherever annotations are given for specific task
+
 	
+	Java Configuration:
+	====================
 	
+	@Bean 
 	
+	Modules:
+	========
+	Spring_Jdbc
+	Spring_JPA
+	Spring_Boot with rest services along spring security.
 	
+	Spring_Jdbc:
+	============
+	Spring JdbcTemplate is a powerful mechanism to connect to the database and execute SQL queries.
+
+	>>> It internally uses JDBC api, but eliminates a lot of problems of JDBC API.
+
+		JdbcTemplate---->>	update()--->>insert,update,delete
+							execute()-->>select
+							query()---->>fetch all the records.
 	
+	Spring_JPA:
+	===========
+	Hibernate--->>non-invasive
+	---->>tightly coupled.
 	
+	why??-->>to make it loosely coupled.
 	
+	benefits:
 	
+	1.creating the obj is taken care by the containers(Loosely coupled)
+	2.creation of the entitymanager
+	3.taking care of transactions(begin and commit)
+	---------------------------------------------------------------------------------
 	
+	@component-for obj creation by containers
 	
+	@service-for service layers classes instead of @Component.
+	
+	@Repository-for DataAccess(DAO)layers classes instead of @Component.
+	#not mandatory
 	
 	
 	
@@ -2063,84 +1986,20 @@ Terminated (Dead)
 	
 
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
