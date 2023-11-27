@@ -1974,6 +1974,67 @@ Terminated (Dead)
 	@Repository-for DataAccess(DAO)layers classes instead of @Component.
 	#not mandatory
 	
+	@Controller-for ui level classes.
+	
+	Limitation of spring:
+	======================
+	
+	spring has annotations only for user defined classes ,but for predefined classes, we have to provide configuration explicitly.
+	
+	To overcome this ....>>Spring Boot.
+	
+	Spring Boot:
+	============
+	4 features :
+	
+			1.Auto-Configuration(not for all classes....,but most of the predefined classes are pre configured)
+			2.Embedded servers.(Internal servers)....tomcat(default),jetty,weblogic,...
+			3.Starters--->>dependencies.
+			4.Actuators.--->>internals about our project.
+			
+	
+	webservices:
+	============
+	
+	phonepe...(pin)...electricity bill
+	|\50k
+	|
+	bank related
+	
+	user ----application....Spring
+	
+	application to application communication....springBoot
+	
+	REST and SOAP
+	
+	REST
+	
+	RESTFUL SERVICES:
+	
+	@RequestMapping("/")
+			
+			@GetMapping
+			@PostMapping
+			@PutMapping
+			@DeleteMapping
+	
+	
+	rest endpoint testing tools:postman/swagger
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
