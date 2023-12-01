@@ -2021,34 +2021,176 @@ Terminated (Dead)
 	
 	rest endpoint testing tools:postman/swagger
 	
+	Junit and Mockito:
+	===================
+	unittesting framework
 	
+	Spring security jwt :
+	=========================
 	
+	Authentication and Authorization:
+	=================================
 	
+	amazon...stella...username,password
+	|emp
+	sandy..username,password
 	
+	JWT--JSON web token
 	
+	*****************************************************************************************
 	
+	Web Technologies:
+	==================
 	
+	computer languages:-
 	
+					1.Programming Languages
+							to develop softwares .....c,c++,java,python...
+					2.Scripting Language
+							To create websites.....Html,css,javascript
+							
+			website:
+			========
+				collection of webpages
+				
+			webpages:3types
+					
+					1.static webpages
+					2.Dynamic webpages
+					3.Server webpages
+				
+			static webpage:content remains stagnant(unchanged)
+				eg:gmail,facebook,insta registration,....
+				
+			Dynamic webpage:content keeps on changing
+				eg:insta feed,gmail home pages....
+				
+			server webpages:all the data from static,dynamic webpages will get stored.
+	------------------------------------------------------------------------------------------	
+											HTML:
+											=====
+											
+	HyperText Markup Language
 	
+	Hypertext: linking our text with another webpage/link(content like image,forms,tables)..
 	
+	Html was first developed by Tim Berners Lee	.
 	
+	in 1990.
 	
+	Html Elements:
+	==============
+	Element: <tag> content/data </tag>
 	
+	tags are of 2types:
 	
+		1.container tags/pair tags
+		
+			<start>data</end>
+		
+		2.single tags/Empty tags
+		
+			<tag> or </tag> or <tag/>
+		
+	Heading tags:
+	==============
+		<h1> </h1>...big/important headings
+		<h6> </h6>...small/least important
 	
+	Paragraph tags:
+	================
+	<p > data </p>
 	
+		Attributes: properties 
+	    ==========
+			gives extra functionality to html elements.
+
+	empty tags:
+	============
+	<br> to break the line
+	<hr> to add an horizontal line
 	
-	
-	
-	
-	
-	
-	
-	
+	comments: <!--comment-->
+	=========
+	Text Formatting tags:
+	======================
+	<b>bold</b>
+	<i>italic</i>
+	<u> underline</u>
+	<strong>bold style</strong>
+	<em>emphasized tag</em> <!--italic-->
+	<small>text in small size</small>
+	<big> bigger text</big>
+	<sub>subscript</sub>
+	<sup>superscript</sup>
+	<strike>strike through the text</strike>
+	<del>deleted tag</del><br><br>
+	<ins>inserted tag</ins>
 
 	
+	Marquee tag:
+	=============
+	<marquee>text</marquee>
+	
+	to have scrolling text
+	
+	Images:
+	=======
+	<img>....single tag.
+	
+	attribute src=""
+	
+	Links:
+	======
+	<a>anchor tag</a>
+	
+	href=""
+	
+	text links
+	images links
+	
+	List:
+	======
+		3types of list:
+				1.Unordered List -- <ul><li>item</li> </ul>
+				2.Ordered List   -- <ol> <li>item</li> </ol>
+				3.Description List -- 
+				<dl> 
+				<dt>term</dt>
+				<dd>description of term</dd>
+				</dl>
+				
+	Table:
+	======
+	<table> to define a table</table>
+	
+	 association of rows and columns.
+	 
+	 <tr>to define table row</tr>
+	 
+	 <td>to define table columns(data)</td>
+	
+	<th>to define table headers</th>
+	
+	<thead>to have headers at the top of table</thead>
+	<tfoot>to have footers at the bottom of table</tfoot>
+	
+		CellPadding and CellSpacing:
+		===========================
+		CellPadding: space b/w the celldata and the cell margins.
+		
+		CellSpacing: space b/w each cell and table margin.
+	
+	
+		ColSpan and RowSpan:
+		=====================
+	
+			colspan: used to merge the columns
+			
+			rowspan: used to merge the rows
+	
 
-
+	     Assignment:socialmedia(insta,fb,yt)images with hyperlinks,table
 
 
 
