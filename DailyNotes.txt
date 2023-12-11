@@ -2152,8 +2152,8 @@ Terminated (Dead)
 	List:
 	======
 		3types of list:
-				1.Unordered List -- <ul><li>item</li> </ul>
-				2.Ordered List   -- <ol> <li>item</li> </ol>
+				1.Unordered List -- <ul><li>item</li> </ul>(Bullets)
+				2.Ordered List   -- <ol> <li>item</li> </ol>(Numberings)
 				3.Description List -- 
 				<dl> 
 				<dt>term</dt>
@@ -2193,15 +2193,144 @@ Terminated (Dead)
 	     Assignment:socialmedia(insta,fb,yt)images with hyperlinks,table
 
 
+	Forms:
+	======
+
+	some of the input types in html:
+	
+			type="text"
+				="password"
+				="radio" (used to have single selections out of many)
+				="check box"(can have any no. of selections)
+				="text area"
+				="color"
+				="date"
+				="email"
+	
+	Html5 :
+	=======
+	1.Audio and Video:
+	------------------
+	
+	<audio>:to have audio on web pages
+	<video>:to have video on web pages
+	
+	<source> :used to locate the path of the file(audio/video)
+
+	Attributes:
+	============
+	1.controls:to display controls over w.pages
+	2.loop:to repeat audio/video after completion.
+	3.muted:to mute
+	4.poster(video):to display the poster until the video is played.
+	
+	2.Semantic Elements:(Meaningful elements.)
+	--------------------
+	Structural elements:
+	
+	Header,footer,aside,main,nav,article,section,....
+	
+	
+	=====================================================================================
+										CSS
+	=====================================================================================
+		Cascading style sheets
+		
+		<style>/style attribute
+		
+	3 ways of CSS:
+	==============
+	1.Inline
+		we will use style attribute to our html elements	
+	2.Internal
+		we will use <style> tag within the head tag of html webpage.
+	3.External
+		we will add external css file to our html file with the help of <link> tag.
+	
+	
+	Colors:
+	=======
+	1.color name:red,yellow,...
+	
+	2.Hexa decimal: # R G B(00-ff)
+	
+	3.rgb funtion:rgb(red,green,blue) (0-255)
+	
+	4.rgb funtion with alpha: rgb(red,green,blue,alpha)
+								(0-255)(0-255)(0-255)(0.0-1.0)
+	5.hsl function: hsl(hue,saturation,lightness)
+	                    (0-360)(0%-100%)(0-100%)
+	6.hsl funtion with alpha:hsl(hue,saturation,lightness,alpha)
+								(0-360)(0%-100%)(0-100%)(0.0-1.0)
+	
+	
+	Selectors:
+	==========
+	
+	selector is a pattern that tries to match the elements in our webpages.
+	
+		1.Element selector (p,h1)
+		2.class selector(.)
+		3.Id selector(#)
+		4.Universal selector(*)
+		
+
+	BoxModel:
+	=========
+	content:
+	padding:space around the content within the border.
+	border:
+	margin:space around the elements,outside the defined/set border.
 
 
+	Block and Inline Elements:
+	==========================
+	
+	Block Element:which starts from a new line and stretches to the complete width of the page.
+	eg:div,heading tags,p tag,....
+	Inline Element:it starts within the same line and occupies only the neccesary width.
+	eg:span,a tag,img,....
+	
+	<div>: a block level element which is used a division.
+	=====
+	
+	=======================================================================================================
+												JavaScript
 
+    
+	Scripting language: 
+						client side scripting
+						server side scripting
 
+	* To design dynamic web pages
+	* client side validations
+	
+		javascript in 1995...ECMA standard...1997
 
-
-
-
-
+	
+	1.To change the HTML content.
+	2.To change the attributes in the html content.
+	3.To change the CSS
+	4.To hide and display the content on our webpage.
+	
+	getElementById("change")----id is required
+	
+	innerHTML
+	
+	<script> we use for JavaScript</script>
+	
+	3places: In the Head
+			 In the Body
+			 External file(with .js extension)
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 
 
