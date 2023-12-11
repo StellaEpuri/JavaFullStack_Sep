@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grouping Form Controls in HTML</title>
+<style>
+body{
+background-color:lightgray;
+margin:5px;
+}
+#name{
+border-color:red;
+background-color:blue;
+color:white;
+}
+#gender{
+border-color:red;
+background-color:pink;
+color:white;
+}
+#hobbies{
+border-color:red;
+background-color:violet;
+color:white;
+}
+#contact{
+border-color:red;
+background-color:slateblue;
+color:white;
+}
+</style>
+</head>
+<body>
+    <form>
+        <fieldset id="name">
+            <legend><h2><i>Name</i></h2></legend>            
+            <label>Firstname: <input type="text" name="firstname"></label>            
+            <label>Lastname: <input type="text" name="lastname"></label>
+        </fieldset>
+        <fieldset id="gender">
+            <legend>><h2><i>Gender</i></h2></legend>            
+            <label><input type="radio" name="gender" value="male"> Male</label>            
+            <label><input type="radio" name="gender" value="female"> Female</label>
+        </fieldset>
+        <fieldset id="hobbies">
+        	<legend>><h2><i>Hobbies</i></h2></legend>            
+            <label><input type="checkbox" name="hobbies" value="soccer"> Soccer</label>
+            <label><input type="checkbox" name="hobbies" value="cricket"> Cricket</label>
+            <label><input type="checkbox" name="hobbies" value="baseball"> Baseball</label>
+        </fieldset>
+        <fieldset id="contact">
+            <legend>><h2><i>Contact Details</i></h2></legend>
+            <label>Email Address: <input type="email" name="email"></label>
+            <label>Phone Number: <input type="text" name="phone"></label>
+        </fieldset>
+    </form>
+</body>
+</html>
