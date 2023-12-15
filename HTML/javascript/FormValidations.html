@@ -1,0 +1,24 @@
+<html>
+<head>
+<script>
+function validateForm(){
+	let name=document.LoginForm.name.value;
+	let password=document.LoginForm.password.value;
+	if(name == null || name == ""){
+	window.alert("NAME cannot be blank");
+	return false;
+	}
+	else if(password.length<8){
+	window.alert("password must be atleast 8 characters long");
+}
+}
+</script>
+</head>
+<body>
+<form name="LoginForm" onsubmit="return validateForm()">
+Name:<input type="text" name="name">
+Password:<input type="password" name="password">
+<input type="submit" value="Login">
+</form>
+</body>
+</html>

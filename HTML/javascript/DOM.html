@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>DOM DEMO</title>
+</head>
+<body>
+
+<div id="one">
+<h1>This is a Heading1</h1>
+<p>This is paragraph1<p>
+</div>
+
+<div id="two">
+<h1>This is a Heading2</h1>
+<p id="inside">This is paragraph2<p>
+</div>
+
+<script>
+let x=document.createElement("h2")
+
+x.innerText="This is added Element in the document"
+
+console.log(x)
+
+let y=document.getElementById("one")
+
+y.appendChild(x)
+
+let z=document.getElementById("inside")
+
+z.remove();
+
+</script>
+</body>
+
+</html>
